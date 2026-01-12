@@ -6,13 +6,6 @@ The findings show that Aadhaar enrolment activity is concentrated in a small num
 
 The design choices in this project prioritize clarity, reproducibility, and ease of interpretation over technical complexity. All insights are derived directly from the provided anonymized data and are presented with the intent of supporting evidence-based decision-making within UIDAI.
 
-Limitations:
-- Analysis is based on available anonymized enrolment data.
-- Demographic and biometric updates were not deeply analyzed.
-- Results reflect reported enrolment activity, not population size.
-
-# Executive Summary
-
 This analysis examines Aadhaar enrolment patterns across Indian states
 using anonymized UIDAI enrolment data (~1 million records).
 
@@ -32,14 +25,10 @@ Recommendations:
 Targeted staffing, awareness campaigns, and district-level monitoring
 can significantly improve enrolment efficiency and service delivery.
 
-# UIDAI Aadhaar Data Analysis - Complete Submission Package
-
-**Team ID**: UIDAI_6987 
-**Analyst**: Ratan (Quantitative Developer) 
-**Date**: January 2026 
-**Hackathon**: UIDAI Data Hackathon 2026
-
----
+Limitations:
+- Analysis is based on available anonymized enrolment data.
+- Demographic and biometric updates were not deeply analyzed.
+- Results reflect reported enrolment activity, not population size.
 
 ## Project Overview
 
@@ -52,31 +41,6 @@ This project analyzes anonymized Aadhaar enrolment data to identify meaningful p
 3. **District-Level Anomalies**: Urban concentration with underserved rural areas
 
 ---
-
-##  Project Structure
-
-```
-(quant) ratan@ratan-HP-Laptop-15-fd0xxx:~/Documents/Hackaton$ tree -L 2
-.
-├── data
-│   ├── age_ratio.png
-│   ├── district_anomalies.csv
-│   ├── district_anomalies.png
-│   ├── enrolment_clean.csv
-│   ├── state_age_ratio_clean.csv
-│   ├── state_distribution.png
-│   └── state_wise_enrolments.csv
-├── README.md
-├── requirements.txt
-├── src
-│   ├── 01_data_loader.py
-│   ├── 02_analysis.py
-│   └── 03_report_generator.py
-└── UIDAI_Final_Analysis.pdf
-
-3 directories, 13 files
-(quant) ratan@ratan-HP-Laptop-15-fd0xxx:~/Documents/Hackaton$ 
-```
 
 ### Output
 
@@ -95,7 +59,6 @@ The pipeline generates:
 - **Observation**: Top 5 states account for majority of enrolments
 - **Business Impact**: Expansion opportunities in underserved regions
 - **UIDAI Action**: Deploy resources to northern/central states
-
 ### Finding 2: Age Distribution Variance
 - **Observation**: Child-to-adult ratios vary significantly by state
 - **Business Impact**: Different demographic needs by region
@@ -124,14 +87,6 @@ The pipeline generates:
 - **Visualization**: matplotlib, seaborn
 - **Logging**: Python logging module
 - **Code Style**: PEP 8 compliant
-
----
-
-## Contact
-
-**Analyst**: Ratan (Quantitative Developer) 
-**Team ID**: UIDAI_6987 
-**Email**: ratanmoger99@gmail.com 
 
 ---
 
